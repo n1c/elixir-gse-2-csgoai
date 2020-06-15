@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        ".hex": true,
+        ".elixir_ls": true,
+        "_build": true,
+        "deps": true
+    }
+}
