@@ -1,6 +1,6 @@
-defmodule Gse2csgoai do
+defmodule Gsi2csgoai do
   @moduledoc """
-  Documentation for `Gse2csgoai`.
+  Documentation for `Gsi2csgoai`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Gse2csgoai do
 
   ## Examples
 
-      iex> Gse2csgoai.hello()
+      iex> Gsi2csgoai.hello()
       :world
 
   """

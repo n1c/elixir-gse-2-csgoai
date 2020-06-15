@@ -1,5 +1,5 @@
-defmodule Gse2csgoai.Transcoder do
-  def gse2csgoai(json) do
+defmodule Gsi2csgoai.Transcoder do
+  def gsi2csgoai(json) do
     %{
       map: json["map"]["name"],
       current_score: [

@@ -1,9 +1,9 @@
-defmodule Gse2csgoai.MixProject do
+defmodule Gsi2csgoai.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :gse2csgoai,
+      app: :gsi2csgoai,
       version: "0.1.0",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule Gse2csgoai.MixProject do
   def application do
     [
       extra_applications: [:logger, :cowboy, :plug, :poison],
-      mod: {Gse2csgoai.Application, []}
+      mod: {Gsi2csgoai.Application, []}
     ]
   end
 

@@ -1,4 +1,4 @@
-defmodule Gse2csgoai.Router do
+defmodule Gsi2csgoai.Router do
   use Plug.Router
   use Plug.Debugger
   require Logger
@@ -15,7 +15,7 @@ defmodule Gse2csgoai.Router do
     {:ok, body, conn} = read_body(conn)
     json = Poison.decode!(body)
     # @TODO: send our response to something meaningful
-    csgoaiformat = Gse2csgoai.Transcoder.gse2csgoai(json)
+    csgoaiformat = Gsi2csgoai.Transcoder.gsi2csgoai(json)
     IO.inspect(csgoaiformat)
 
     send_resp(conn, 200, "OK")
